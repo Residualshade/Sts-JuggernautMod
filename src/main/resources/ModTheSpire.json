@@ -5,11 +5,11 @@
     "Paltorz","Residualshade"
   ],
   "description": "Adds The Juggernaut as a new playable character.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": [
     "basemod"
   ],
-  "sts_version": "11-1-2018",
+  "sts_version": "11-01-2018",
   "mts_version": "3.6.0",
   "update_json": "https://api.github.com/repos/Residualshade/Sts-JuggernautMod/releases/latest"
 }

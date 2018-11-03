@@ -6,7 +6,7 @@
     <!-- Change These to match your mod -->
     <groupId>StsMod</groupId>
     <artifactId>TheJuggernaut</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
     <name>TheJuggernaut</name>
     <description>Slay the Spire mod</description>
@@ -63,7 +63,7 @@
                             <filters>
                                 <filter>
                                     <!-- Change this to match your mods groupId:artifactId -->
-                                    <artifact>StSMod:TheGladiator</artifact>
+                                    <artifact>StSMod:TheJuggernaut</artifact>
                                 </filter>
                             </filters>
                         </configuration>

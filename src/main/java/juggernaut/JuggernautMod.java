@@ -63,6 +63,8 @@ public class JuggernautMod implements PostInitializeSubscriber,
     private static final String SKILL_COPPER_PORTRAIT = IMG_PATH + "1024/bg_attack_brown.png";
     private static final String POWER_COPPER_PORTRAIT = IMG_PATH + "1024/bg_attack_brown.png";
     private static final String ENERGY_ORB_COPPER_PORTRAIT = IMG_PATH + "1024/card_brown_orb.png";
+
+    private static final String ENERGY_ORB_IN_DESCRIPTION = IMG_PATH + "energy/energyOrbInDescription.png";
     
     // card images
     public static final String STRIKE_PURPLE = IMG_PATH + "cards/strike_purple.png";
@@ -281,12 +283,19 @@ public class JuggernautMod implements PostInitializeSubscriber,
          * `images/` folder must be relocated
          */
         logger.info("creating the color " + AbstractCardEnum.COPPER.toString());
-        BaseMod.addColor(AbstractCardEnum.COPPER,
-        		COPPER, COPPER, COPPER, COPPER, COPPER, COPPER, COPPER,
-        		ATTACK_COPPER, SKILL_COPPER,
-        		POWER_COPPER, ENERGY_ORB_COPPER,
-        		ATTACK_COPPER_PORTRAIT, SKILL_COPPER_PORTRAIT,
-        		POWER_COPPER_PORTRAIT, ENERGY_ORB_COPPER_PORTRAIT);
+        BaseMod.addColor(
+                AbstractCardEnum.COPPER
+                , COPPER
+                , ATTACK_COPPER
+                , SKILL_COPPER
+                , POWER_COPPER
+                , ENERGY_ORB_COPPER
+                , ATTACK_COPPER_PORTRAIT
+                , SKILL_COPPER_PORTRAIT
+                , POWER_COPPER_PORTRAIT
+                , ENERGY_ORB_COPPER_PORTRAIT
+                , ENERGY_ORB_IN_DESCRIPTION
+        );
     }
 
     public static void initialize() {
