@@ -5,7 +5,7 @@
     "Paltorz","Residualshade"
   ],
   "description": "Adds The Juggernaut as a new playable character.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": [
     "basemod"
   ],
